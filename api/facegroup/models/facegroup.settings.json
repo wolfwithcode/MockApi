@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "facegroups",
+  "info": {
+    "name": "facegroup",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groupOfFaces": {
+      "type": "component",
+      "repeatable": true,
+      "component": "face.group-of-faces"
+    }
+  }
+}

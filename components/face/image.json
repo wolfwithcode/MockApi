@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_face_images",
+  "info": {
+    "name": "image",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

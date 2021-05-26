@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_face_group_of_faces",
+  "info": {
+    "name": "GroupOfFaces",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "min_age": {
+      "type": "integer"
+    },
+    "max_age": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE",
+        "UNKNOWN"
+      ]
+    },
+    "faces": {
+      "type": "component",
+      "repeatable": true,
+      "component": "face.image"
+    }
+  }
+}

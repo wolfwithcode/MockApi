@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/facegroup",
+      "handler": "facegroup.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/facegroup",
+      "handler": "facegroup.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/facegroup",
+      "handler": "facegroup.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
